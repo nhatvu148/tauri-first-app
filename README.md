@@ -2,6 +2,23 @@
 
 - https://geekjr.github.io/reactTauri.html
 
+# Steps to install Tauri:
+
+- cargo install tauri-bundler
+- npx create-react-app app-name
+- yarn add tauri
+- Add scripts to package.json:
+
+```
+"tauri": "tauri",
+"dev": "npm run tauri dev",
+"bundle": "tauri build",
+```
+
+- yarn tauri init
+- yarn build
+- yarn bundle
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
